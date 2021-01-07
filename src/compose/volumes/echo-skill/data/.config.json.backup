@@ -417,7 +417,7 @@
   },
   "node-red-node-rbe": {
    "name": "node-red-node-rbe",
-   "version": "0.2.8",
+   "version": "0.2.9",
    "local": false,
    "nodes": {
     "rbe": {
@@ -450,5 +450,20 @@
    }
   }
  },
- "_credentialSecret": "9d5348c6a9be9fe268dfe72b1c8bfb493ab714c698734d6a41abcf88260356f9"
+ "_credentialSecret": "9d5348c6a9be9fe268dfe72b1c8bfb493ab714c698734d6a41abcf88260356f9",
+ "users": {
+  "_": {
+   "editor": {
+    "view": {
+     "view-show-grid": true,
+     "view-snap-grid": true,
+     "view-grid-size": 20,
+     "view-node-status": true,
+     "view-node-show-label": true,
+     "view-show-tips": true
+    }
+   },
+   "menu-menu-item-sidebar": false
+  }
+ }
 }

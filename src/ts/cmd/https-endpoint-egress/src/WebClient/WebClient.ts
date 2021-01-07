@@ -26,13 +26,15 @@ class WebClient {
           password: password as string,
         },
         httpsAgent: new https.Agent({
-          ca: tlsCert as string
+          ca: tlsCert as string,
+          rejectUnauthorized: false
         }),
       });
     } else {
       response = await Axios.post<T>(url, body, {
         httpsAgent: new https.Agent({
-          ca: tlsCert as string
+          ca: tlsCert as string,
+          rejectUnauthorized: false
         }),
       });
     }
