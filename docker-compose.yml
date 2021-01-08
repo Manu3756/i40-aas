@@ -220,6 +220,8 @@ services:
       - CORE_INGRESS_EXCHANGE=${CORE_INGRESS_EXCHANGE}
       - CORE_EGRESS_ROUTINGKEY=${CORE_EGRESS_ROUTINGKEY}
       - PORT=${SKILLS_ECHO_PORT}
+      - NODE_ADMIN_USER=${NODE_ADMIN_USER}
+      - NODE_ADMIN_PASSWORD=${NODE_ADMIN_PASSWORD}
   ##########################################
   i40-aas-onboarding-skill:
     image: sapi40/i40-aas-onboarding-skill
